@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Jenard Pragata</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="grain-overlay"></div>
+  <div class="gradient-orb orb-1"></div>
+  <div class="gradient-orb orb-2"></div>
+
+  <div class="hero">
+    <nav class="navbar">
+      <div class="nav-logo">JP</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutme.html">About</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <section class="portfolio-section">
+      <div class="section-header">
+        <h1 class="section-title">
+          Selected <span class="highlight">Works</span>
+        </h1>
+        <p class="section-subtitle">
+          A collection of projects showcasing my expertise in web design and development
+        </p>
+      </div>
+
+      <div class="gallery">
+        <div class="photo-item featured" data-category="web-design">
+          <div class="photo-wrapper">
+            <img src="1.jpg" alt="Web Design Project" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Web Design</h3>
+                <p>Modern & Responsive</p>
+                <span class="view-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-item" data-category="ui-ux">
+          <div class="photo-wrapper">
+            <img src="2.jpg" alt="UI/UX Design" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>UI/UX Design</h3>
+                <p>User Interface</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-item" data-category="branding">
+          <div class="photo-wrapper">
+            <img src="3.jpg" alt="Branding Project" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Branding</h3>
+                <p>Visual Identity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-item" data-category="web-app">
+          <div class="photo-wrapper">
+            <img src="4.jpg" alt="Web Application" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Web Application</h3>
+                <p>Full Stack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-item" data-category="mobile">
+          <div class="photo-wrapper">
+            <img src="5.jpg" alt="Mobile Design" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Mobile Design</h3>
+                <p>iOS & Android</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-item" data-category="graphics">
+          <div class="photo-wrapper">
+            <img src="6.jpg" alt="Graphic Design" />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Graphic Design</h3>
+                <p>Creative Assets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="back-btn">
+        <button onclick="history.back()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Back to Home
+        </button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
